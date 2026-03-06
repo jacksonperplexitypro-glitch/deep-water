@@ -78,7 +78,6 @@
                     <div class="hero-badges">
                         <span class="badge">154伙優質住宅</span>
                         <span class="badge">實用面積862平方呎起</span>
-                        <span class="badge">全數三房及四房戶型</span>
                     </div>
                     
                     <div class="hero-actions">
