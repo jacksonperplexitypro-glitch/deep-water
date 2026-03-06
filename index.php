@@ -20,7 +20,7 @@
     <meta property="og:title" content="DEEP WATER SOUTH - 第6B期 GRANDE BLANC">
     <meta property="og:description" content="全新臨海高端超級豪宅，香港仔黃竹坑站港島南岸第6期，154伙優質住宅。">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.deep-water-south.org/images/18.png">
+    <meta property="og:image" content="https://www.deep-water-south.org/images/18zip.png">
     <meta property="og:url" content="https://www.deep-water-south.org/">
 
 
