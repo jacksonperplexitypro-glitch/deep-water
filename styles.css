@@ -235,17 +235,17 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.4;
+    opacity: 1;
 }
 
-.hero-overlay {
+/* .hero-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(135deg, 
         rgba(219, 234, 254, 0.8) 0%, 
         rgba(191, 219, 254, 0.6) 50%, 
         rgba(219, 234, 254, 0.9) 100%);
-}
+} */
 
 .hero-content {
     position: relative;
@@ -306,7 +306,10 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     margin-bottom: 2rem;
 }
-
+a {
+  color: inherit; /* 讓顏色繼承父元素，通常是黑色 */
+  text-decoration: none; /* 取消底線 */
+}
 .scroll-indicator {
     margin-top: 2rem;
 }
@@ -314,7 +317,8 @@ h1, h2, h3, h4, h5, h6 {
 .scroll-btn {
     background: none;
     border: none;
-    color: #1e3a8a;
+    /* color: #1e3a8a; */
+     color: white;
     font-size: 2rem;
     cursor: pointer;
     animation: bounce 2s infinite;
