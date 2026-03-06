@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+==========================================================================
+【AI HANDOVER NOTE】
+1. DESIGN PHILOSOPHY:
+   - Coastal Luxury Minimalism: 以深水灣海岸線的自然藍調為核心，融合現代豪宅的極簡奢華美學
+   - Atmospheric Depth: 透過漸層藍色系統營造從淺灘到深海的視覺層次，呼應項目名稱 DEEP WATER SOUTH
+   - Bilingual Elegance: 中英雙語排版需保持視覺平衡，Cormorant Garamond 提供優雅的英文標題，Noto Sans SC 確保中文的專業呈現
+   - Physicality with Light: 使用 rim-light 效果模擬海面反光，為卡片和按鈕添加微妙的 3D 深度感
+
+2. TYPOGRAPHY:
+   - Display Font (Cormorant Garamond): 選用經典襯線字體作為英文標題，傳達歷史底蘊與奢華品味，適合 DEEP WATER SOUTH 的高端定位
+   - UI Sans (Inter + Noto Sans SC): Inter 的幾何精準性與 Noto Sans SC 的現代中文設計完美結合，確保雙語內容的可讀性與一致性
+   - Mono (JetBrains Mono): 用於面積數據、價格、樓層編號等精確信息展示，強化專業感與技術細節
+
+3. COLOR SYSTEM:
+   - Brand Core (Deep Water Blue): 主色相 H=220（深邃藍），色度 0.12-0.18，映射深水灣的標誌性海景
+   - --brand → --primary: 用於 CTA 按鈕、導航高亮、重要標題
+   - --brand → --accent: 較高飽和度變體，用於懸停狀態、交互反饋
+   - --brand → --ring: 低飽和度版本，用於焦點環和微妙邊框
+   - Semantic Colors: success (綠色 H=150) 用於可售狀態，warning (琥珀色 H=45) 用於限量提示，destructive (珊瑚紅 H=15) 用於售罄標記
+   - Neutral System: background 採用極淺藍灰 (H=220, L=0.98)，營造清爽海岸氛圍；dark mode 使用深海藍黑 (L=0.12)
+
+4. USAGE GUIDE:
+   - Layout: Full-width hero section with parallax scrolling，搭配 centered container (max-width: 1280px) 用於內容區
+   - Glassmorphism: 在 hero overlay、navigation bar、modal 使用 backdrop-blur-xl + 半透明背景，確保文字可讀性
+   - Rim-light Effect: 為 card、button 添加 box-shadow: 0 -1px 0 0 oklch(0.95 0.02 220 / 0.5) inset，模擬頂部光源
+   - Image Treatment: 所有地產照片應用 filter: saturate(1.1) contrast(1.05)，增強藍色調與視覺衝擊力
+   - Spacing: 使用 8px 基礎網格，section 間距 clamp(4rem, 8vw, 8rem)，保持呼吸感
+   - Animations: 使用 ease-out cubic-bezier(0.16, 1, 0.3, 1) 曲線，營造流暢的海浪般過渡效果
+==========================================================================
+*/
+
+:root {
+  /* Typography */
+  --font-sans: Inter, 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+  --font-mono: JetBrains Mono, 'Courier New', monospace;
+  
+  /* Radius */
+  --radius: 0.75rem;
+
+  /* Core UI Tokens */
+  --background: oklch(0.98 0.008 220);
+  --foreground: oklch(0.18 0.02 220);
+  --card: oklch(0.995 0.005 220);
+  --card-foreground: oklch(0.2 0.018 220);
+  --popover: oklch(0.995 0.005 220);
+  --popover-foreground: oklch(0.18 0.02 220);
+  --primary: oklch(0.48 0.15 220);
+  --primary-foreground: oklch(0.98 0.008 220);
+  --secondary: oklch(0.92 0.015 220);
+  --secondary-foreground: oklch(0.22 0.02 220);
+  --muted: oklch(0.94 0.01 220);
+  --muted-foreground: oklch(0.48 0.015 220);
+  --accent: oklch(0.55 0.18 220);
+  --accent-foreground: oklch(0.98 0.008 220);
+  --destructive: oklch(0.58 0.18 15);
+  --destructive-foreground: oklch(0.98 0.008 15);
+  --border: oklch(0.88 0.012 220);
+  --input: oklch(0.85 0.015 220);
+  --ring: oklch(0.48 0.12 220);
+  
+  /* Chart Tokens */
+  --chart-1: oklch(0.52 0.16 220);
+  --chart-2: oklch(0.58 0.14 200);
+  --chart-3: oklch(0.62 0.12 240);
+  --chart-4: oklch(0.48 0.18 210);
+  --chart-5: oklch(0.55 0.15 230);
+  
+  /* Sidebar Tokens */
+  --sidebar: oklch(0.96 0.008 220);
+  --sidebar-foreground: oklch(0.25 0.02 220);
+  --sidebar-primary: oklch(0.48 0.15 220);
+  --sidebar-primary-foreground: oklch(0.98 0.008 220);
+  --sidebar-accent: oklch(0.92 0.015 220);
+  --sidebar-accent-foreground: oklch(0.22 0.02 220);
+  --sidebar-border: oklch(0.88 0.012 220);
+  --sidebar-ring: oklch(0.48 0.12 220);
+}
+
+.dark {
+  --background: oklch(0.12 0.025 220);
+  --foreground: oklch(0.92 0.01 220);
+  --card: oklch(0.15 0.028 220);
+  --card-foreground: oklch(0.9 0.012 220);
+  --popover: oklch(0.14 0.028 220);
+  --popover-foreground: oklch(0.92 0.01 220);
+  --primary: oklch(0.62 0.18 220);
+  --primary-foreground: oklch(0.12 0.025 220);
+  --secondary: oklch(0.22 0.035 220);
+  --secondary-foreground: oklch(0.88 0.012 220);
+  --muted: oklch(0.2 0.03 220);
+  --muted-foreground: oklch(0.62 0.02 220);
+  --accent: oklch(0.68 0.2 220);
+  --accent-foreground: oklch(0.12 0.025 220);
+  --destructive: oklch(0.65 0.2 15);
+  --destructive-foreground: oklch(0.95 0.01 15);
+  --border: oklch(0.28 0.04 220);
+  --input: oklch(0.32 0.045 220);
+  --ring: oklch(0.62 0.15 220);
+  
+  /* Chart Tokens */
+  --chart-1: oklch(0.65 0.18 220);
+  --chart-2: oklch(0.68 0.16 200);
+  --chart-3: oklch(0.72 0.14 240);
+  --chart-4: oklch(0.62 0.2 210);
+  --chart-5: oklch(0.68 0.17 230);
+  
+  /* Sidebar Tokens */
+  --sidebar: oklch(0.1 0.028 220);
+  --sidebar-foreground: oklch(0.85 0.015 220);
+  --sidebar-primary: oklch(0.62 0.18 220);
+  --sidebar-primary-foreground: oklch(0.12 0.025 220);
+  --sidebar-accent: oklch(0.22 0.035 220);
+  --sidebar-accent-foreground: oklch(0.88 0.012 220);
+  --sidebar-border: oklch(0.28 0.04 220);
+  --sidebar-ring: oklch(0.62 0.15 220);
+}
+
+@theme inline {
+  /* Shadcn Core Mapping */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Charts Mapping */
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Sidebar Mapping */
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Typography */
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+
+  /* Radius */
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply scroll-smooth antialiased;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans min-h-screen;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  code, pre {
+    @apply font-mono;
+  }
+
+  ::selection {
+    @apply bg-primary/20 text-primary;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/20 rounded-full hover:bg-muted-foreground/40;
+  }
+}
