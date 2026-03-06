@@ -20,6 +20,152 @@
     <meta property="og:title" content="DEEP WATER SOUTH - 第6B期 GRANDE BLANC">
     <meta property="og:description" content="全新臨海高端超級豪宅，香港仔黃竹坑站港島南岸第6期，154伙優質住宅。">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.deep-water-south.org/images/18.png">
+    <meta property="og:url" content="https://www.deep-water-south.org/">
+
+
+   <!-- 基本 Meta 標籤 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO 核心標籤 -->
+    <title>DEEP WATER SOUTH 第6B期 GRANDE BLANC | 香港仔黃竹坑站豪宅 | 154伙三房四房單位</title>
+    <meta name="description" content="DEEP WATER SOUTH 第6B期 GRANDE BLANC，香港仔黃竹坑站港島南岸全新臨海高端超級豪宅。154伙優質住宅，實用面積862-1,696平方呎，全數三房及四房戶型，設私人升降機，享深水灣壽臣山景觀。立即預約參觀示範單位。">
+    <meta name="keywords" content="DEEP WATER SOUTH, GRANDE BLANC, 第6B期, 香港仔, 黃竹坑站, 港島南岸, 豪宅, 三房, 四房, 深水灣, 壽臣山, 私人升降機, 無邊際泳池, 示範單位, 樓盤, 新盤, 香港樓市">
+ 
+ 
+    
+    <!-- 地理位置標籤 -->
+    <meta name="geo.region" content="HK">
+    <meta name="geo.placename" content="香港仔, 黃竹坑, 深水灣, 壽臣山">
+    <meta name="geo.position" content="22.246524;114.186962">
+    <meta name="ICBM" content="22.246524, 114.186962">
+    
+    <!-- 語言和地區 -->
+    <meta name="language" content="zh-HK">
+    <meta name="content-language" content="zh-HK">
+
+    <!-- Open Graph (Facebook) 標籤 -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="DEEP WATER SOUTH">
+    <meta property="og:title" content="DEEP WATER SOUTH 第6B期 GRANDE BLANC | 香港仔黃竹坑站豪宅">
+    <meta property="og:description" content="港島南岸全新臨海高端超級豪宅，154伙優質住宅，實用面積862-1,696平方呎，全數三房及四房戶型，設私人升降機，享深水灣壽臣山景觀。">
+    <meta property="og:url" content="https://www.deep-water-south.org/">
+    <meta property="og:image" content="https://www.deep-water-south.org/images/18.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="DEEP WATER SOUTH 第6B期 GRANDE BLANC 豪宅外觀">
+    <meta property="og:locale" content="zh_HK">
+    
+    <!-- Twitter Card 標籤 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DEEP WATER SOUTH 第6B期 GRANDE BLANC | 香港仔黃竹坑站豪宅">
+    <meta name="twitter:description" content="港島南岸全新臨海高端超級豪宅，154伙優質住宅，實用面積862-1,696平方呎，全數三房及四房戶型。">
+    <meta name="twitter:image" content="https://www.deep-water-south.org/images/18.png">
+    <meta name="twitter:image:alt" content="DEEP WATER SOUTH 第6B期 GRANDE BLANC 豪宅">
+    
+    <!-- 聯繫和商業資訊 -->
+    <meta name="contact" content="info@deepwatersouth.hk">
+    <meta name="phone" content="+852-9408-5969">
+    <meta name="address" content="香港仔黃竹坑站港島南岸">
+     
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.deep-water-south.org/">
+      
+    
+    <!-- 預載入重要資源 -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="/images/hero-bg.jpg" as="image">
+    
+    <!-- DNS 預解析 -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//wa.me">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    
+
+    <!-- 結構化數據 (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "DEEP WATER SOUTH",
+        "description": "港島南岸全新臨海高端超級豪宅，第6B期 GRANDE BLANC",
+        "url": "https://yourwebsite.com",
+        "telephone": "+852-9408-5969",
+        "email": "info@deepwatersouth.hk",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "香港仔黃竹坑站港島南岸",
+            "addressLocality": "香港仔",
+            "addressRegion": "香港島",
+            "addressCountry": "HK"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "22.246524",
+            "longitude": "114.186962"
+        },
+        "sameAs": [
+            "https://wa.me/85294085969"
+        ],
+        "offers": {
+            "@type": "Offer",
+            "name": "DEEP WATER SOUTH 第6B期 GRANDE BLANC",
+            "description": "154伙優質住宅，實用面積862-1,696平方呎，全數三房及四房戶型",
+            "category": "住宅物業"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Residence",
+        "name": "DEEP WATER SOUTH 第6B期 GRANDE BLANC",
+        "description": "港島南岸全新臨海高端超級豪宅",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "香港仔黃竹坑站港島南岸",
+            "addressLocality": "香港仔",
+            "addressRegion": "香港島",
+            "addressCountry": "HK"
+        },
+        "numberOfRooms": "3-4房",
+        "floorSize": {
+            "@type": "QuantitativeValue",
+            "minValue": 862,
+            "maxValue": 1696,
+            "unitText": "平方呎"
+        },
+        "amenityFeature": [
+            {
+                "@type": "LocationFeatureSpecification",
+                "name": "私人升降機"
+            },
+            {
+                "@type": "LocationFeatureSpecification", 
+                "name": "無邊際泳池"
+            },
+            {
+                "@type": "LocationFeatureSpecification",
+                "name": "深水灣景觀"
+            },
+            {
+                "@type": "LocationFeatureSpecification",
+                "name": "壽臣山景觀"
+            }
+        ]
+    }
+    </script>
+
+
+
 </head>
 <body>
     <!-- Fixed Contact Buttons -->
