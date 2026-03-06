@@ -26,7 +26,7 @@
     <div class="fixed-contact">
         <a href="tel:+85294085969" class="contact-btn phone-btn">
             <i class="fas fa-phone"></i>
-            <span>2336 3198</span>
+            <span>9408 5969</span>
         </a>
         <a href="https://wa.me/85294085969?text=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E5%B0%8DDeep%20Water%20South%E9%A0%85%E7%9B%AE%E6%84%9F%E8%88%88%E8%B6%A3%EF%BC%8C%E5%B8%8C%E6%9C%9B%E4%BA%86%E8%A7%A3%E6%9B%B4%E5%A4%9A%E8%A9%B3%E6%83%85" target="_blank" class="contact-btn whatsapp-btn">
             <i class="fab fa-whatsapp"></i>
@@ -51,11 +51,11 @@
                 <a href="#contact" class="nav-link">聯絡我們</a>
             </nav>
             
-            <div class="nav-actions">
+            <!-- <div class="nav-actions">
                 <button class="mobile-menu-toggle" id="mobileMenuToggle">
                     <i class="fas fa-bars"></i>
                 </button>
-            </div>
+            </div> -->
         </div>
     </header>
 
@@ -97,6 +97,57 @@
                         <button onclick="scrollToSection('contact')" class="scroll-btn">
                             <i class="fas fa-chevron-down"></i>
                         </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+ <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">相冊</h2>
+                    <p class="section-subtitle">「7 大水主題 4 大蔚藍泳池」</p>
+                    <p class="section-highlight">「港島南岸首個梯級式無邊際泳池」</p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item featured">
+                        <img src="images/3.png" alt="梯級式無邊際泳池" class="gallery-image">
+                         
+                    </div>
+                    
+                    <div class="gallery-item featured">
+                        <img src="images/4.png" alt="蔚藍泳池景觀" class="gallery-image">
+                     
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/5.png" alt="四房雙套設計" class="gallery-image">
+                         
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/14.png" alt="豪華客廳設計" class="gallery-image">
+                       
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/15.png" alt="現代建築外觀" class="gallery-image">
+                       
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/16.png" alt="DEEP WATER SOUTH 全景" class="gallery-image">
+                       
+                    </div>
+
+                      <div class="gallery-item">
+                        <img src="images/17.png" alt="DEEP WATER SOUTH 全景" class="gallery-image">
+                       
+                    </div>
+                      <div class="gallery-item">
+                        <img src="images/18.png" alt="DEEP WATER SOUTH 全景" class="gallery-image">
+                       
                     </div>
                 </div>
             </div>
@@ -161,44 +212,7 @@
                 </div>
             </div>
         </section>
- <!-- Video Introduction Section -->
-        <section id="video" class="video-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">項目介紹影片</h2>
-                    <p class="section-subtitle">深入了解 DEEP WATER SOUTH 第6B期 GRANDE BLANC 的奢華生活</p>
-                </div>
-                
-                <div class="video-container">
-                    <div class="video-wrapper">
-                        <video 
-                            id="projectVideo"
-                            class="project-video"
-                            controls
-                            poster="images/video-poster.jpg"
-                            preload="metadata"
-                        >
-                            <source src="./images/file.mp4" type="video/mp4">
-                    
-                            您的瀏覽器不支援影片播放。
-                        </video>
-                        
-                        <!-- 自定義播放按鈕覆蓋層 -->
-                        <div class="video-overlay" id="videoOverlay">
-                            <div class="play-button" id="playButton">
-                                <i class="fas fa-play"></i>
-                            </div>
-                            <div class="video-info">
-                                <h3 class="video-title">GRANDE BLANC 項目介紹</h3>
-                                <p class="video-description">點擊觀看完整項目展示</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                  
-                </div>
-            </div>
-        </section>
+ 
         <!-- Price List Section -->
         <section id="pricelist" class="pricelist">
             <div class="container">
@@ -283,61 +297,7 @@
             </div>
         </section>
 
-        <!-- Gallery Section -->
-        <section id="gallery" class="gallery">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">相冊</h2>
-                    <p class="section-subtitle">「7 大水主題 4 大蔚藍泳池」</p>
-                    <p class="section-highlight">「港島南岸首個梯級式無邊際泳池」</p>
-                </div>
-                
-                <div class="gallery-grid">
-                    <div class="gallery-item featured">
-                        <img src="images/pool1.jpg" alt="梯級式無邊際泳池" class="gallery-image">
-                        <div class="gallery-overlay">
-                            <h3 class="gallery-title">梯級式無邊際泳池</h3>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item featured">
-                        <img src="images/pool2.jpg" alt="蔚藍泳池景觀" class="gallery-image">
-                        <div class="gallery-overlay">
-                            <h3 class="gallery-title">蔚藍泳池景觀</h3>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/interior1.jpg" alt="四房雙套設計" class="gallery-image">
-                        <div class="gallery-overlay">
-                            <h3 class="gallery-title">四房雙套設計</h3>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/interior2.jpg" alt="豪華客廳設計" class="gallery-image">
-                        <div class="gallery-overlay">
-                            <h3 class="gallery-title">豪華客廳設計</h3>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/building1.jpg" alt="現代建築外觀" class="gallery-image">
-                        <div class="gallery-overlay">
-                            <h3 class="gallery-title">現代建築外觀</h3>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/building2.jpg" alt="DEEP WATER SOUTH 全景" class="gallery-image">
-                        <div class="gallery-overlay">
-                            <h3 class="gallery-title">DEEP WATER SOUTH 全景</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        
         <!-- Contact Section -->
         <section id="contact" class="contact">
             <div class="container">
