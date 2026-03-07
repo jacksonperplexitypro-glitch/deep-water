@@ -104,6 +104,24 @@
 
   gtag('config', 'AW-17987421038');
 </script>
+<!-- Event snippet for 網頁瀏覽 conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17987421038/0VwHCJaTiYIcEO6GiYFD',
+      'value': 1.0,
+      'currency': 'HKD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
 
     <!-- 結構化數據 (JSON-LD) -->
     <script type="application/ld+json">
