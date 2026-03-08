@@ -176,4 +176,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // 在原有JavaScript基礎上添加以下功能
+ const navActions = document.getElementById('navActions');
+
+navActions.addEventListener('click', function (event) {
+ const navMenu = document.querySelector('#navMenu');
  
+
+const currentDisplay = window.getComputedStyle(navMenu).display;
+
+if (currentDisplay === 'none') {
+  navMenu.style.display = 'flex';
+}else{
+    navMenu.style.display = 'none';
+}
+});
