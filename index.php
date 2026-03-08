@@ -223,19 +223,19 @@ function gtag_report_conversion(url) {
             </div>
             
             <nav class="nav-menu" id="navMenu">
-                <a href="#hero" class="nav-link">項目簡介</a>
-                <a href="#brochure" class="nav-link">電子樓書</a>
-                <a href="#pricelist" class="nav-link">價單</a>
-                <a href="#location" class="nav-link">位置</a>
-                <a href="#gallery" class="nav-link">相冊</a>
-                <a href="#contact" class="nav-link">聯絡我們</a>
+                <a href="./" class="nav-link">首頁</a>
+                <a href="./gallery.html" class="nav-link">相冊</a>
+                <a href="./book.html" class="nav-link">售樓說明書</a>
+                <a href="./price.html" class="nav-link">價單</a>
+                <a href="./location.html" class="nav-link">位置</a>
+                <a href="./contact.html" class="nav-link">聯絡我們</a>
             </nav>
             
-            <!-- <div class="nav-actions">
+            <div class="nav-actions" id="navActions">
                 <button class="mobile-menu-toggle" id="mobileMenuToggle">
                     <i class="fas fa-bars"></i>
                 </button>
-            </div> -->
+            </div>
         </div>
     </header>
 
@@ -389,7 +389,7 @@ function gtag_report_conversion(url) {
                     <a href="https://wa.me/85294085969?text=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E5%B0%8DDeep%20Water%20South%E9%A0%85%E7%9B%AE%E6%84%9F%E8%88%88%E8%B6%A3%EF%BC%8C%E5%B8%8C%E6%9C%9B%E4%BA%86%E8%A7%A3%E6%9B%B4%E5%A4%9A%E8%A9%B3%E6%83%85" 
                        target="_blank" class="btn btn-primary">
                         <i class="fas fa-download"></i>
-                        下載電子樓書
+                        下載售樓說明書
                     </a>
                 </div>
             </div>
