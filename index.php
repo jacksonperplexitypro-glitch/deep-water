@@ -224,10 +224,10 @@ function gtag_report_conversion(url) {
             
             <nav class="nav-menu" id="navMenu">
                 <a href="./" class="nav-link">首頁</a>
-                <a href="./gallery.html" class="nav-link">相冊</a>
+     
                 <a href="./book.html" class="nav-link">售樓說明書</a>
                 <a href="./price.html" class="nav-link">價單</a>
-                <a href="./location.html" class="nav-link">位置</a>
+              
                 <a href="./contact.html" class="nav-link">聯絡我們</a>
             </nav>
             
@@ -255,10 +255,7 @@ function gtag_report_conversion(url) {
                     <p class="hero-description-1">全新臨海高端超級豪宅</p>
                     <p class="hero-description-2">香港仔黃竹坑站港島南岸</p>
                     
-                    <div class="hero-badges">
-                        <span class="badge">154伙優質住宅</span>
-                        <span class="badge">實用面積862平方呎起</span>
-                    </div>
+                 
                     
                     <div class="hero-actions">
                         <a href="https://wa.me/85294085969?text=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E5%B0%8DDeep%20Water%20South%E9%A0%85%E7%9B%AE%E6%84%9F%E8%88%88%E8%B6%A3%EF%BC%8C%E5%B8%8C%E6%9C%9B%E4%BA%86%E8%A7%A3%E6%9B%B4%E5%A4%9A%E8%A9%B3%E6%83%85" 
