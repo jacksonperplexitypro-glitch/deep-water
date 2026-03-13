@@ -260,16 +260,10 @@ function gtag_report_conversion(url) {
                     <div class="hero-actions">
                         <a href="https://wa.me/85294085969?text=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E5%B0%8DDeep%20Water%20South%E9%A0%85%E7%9B%AE%E6%84%9F%E8%88%88%E8%B6%A3%EF%BC%8C%E5%B8%8C%E6%9C%9B%E4%BA%86%E8%A7%A3%E6%9B%B4%E5%A4%9A%E8%A9%B3%E6%83%85" 
                            target="_blank" class="btn btn-primary">
-                            優先登記參觀示範單位
-                            <i class="fab fa-whatsapp"></i>
+                            查詢詳情
+                            
                         </a>
-                        <!-- <a href="https://wa.me/85294085969?text=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E5%B0%8DDeep%20Water%20South%E9%A0%85%E7%9B%AE%E6%84%9F%E8%88%88%E8%B6%A3%EF%BC%8C%E5%B8%8C%E6%9C%9B%E4%BA%86%E8%A7%A3%E6%9B%B4%E5%A4%9A%E8%A9%B3%E6%83%85" 
-                           target="_blank" class="btn btn-outline"> -->
-                             <a href="https://wa.me/85294085969?text=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E5%B0%8DDeep%20Water%20South%E9%A0%85%E7%9B%AE%E6%84%9F%E8%88%88%E8%B6%A3%EF%BC%8C%E5%B8%8C%E6%9C%9B%E4%BA%86%E8%A7%A3%E6%9B%B4%E5%A4%9A%E8%A9%B3%E6%83%85" 
-                           target="_blank" class="btn btn-primary">
-                            線上索取價單及平面圖
-                             <i class="fab fa-whatsapp"></i>
-                        </a>
+                  
                     </div>
                     
                     <div class="scroll-indicator">
