@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEEP WATER SOUTH - GRANDE BLANC</title>
-    <meta name="description" content="香港仔黃竹坑站港島南岸第6期，154伙優質住宅。">
+    <meta name="description" content="">
 
 
     <!-- Google Fonts -->
