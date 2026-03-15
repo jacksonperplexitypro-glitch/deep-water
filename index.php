@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEEP WATER SOUTH - 第6B期 GRANDE BLANC</title>
-    <meta name="description" content="全新臨海高端超級豪宅，香港仔黃竹坑站港島南岸第6期，154伙優質住宅。">
+    <meta name="description" content="香港仔黃竹坑站港島南岸第6期，154伙優質住宅。">
     <meta name="author" content="DEEP WATER SOUTH">
 
     <!-- Google Fonts -->
@@ -124,7 +124,7 @@
                 <div class="hero-text">
                     <h1 class="hero-title">DEEP WATER SOUTH</h1>
                     <h2 class="hero-subtitle">本網站非發展商官方網站，僅提供資訊參考</h2>
-                    <p class="hero-description-1">全新臨海高端超級豪宅</p>
+                    <p class="hero-description-1"></p>
                     <p class="hero-description-2">香港仔黃竹坑站港島南岸</p>
 
 
